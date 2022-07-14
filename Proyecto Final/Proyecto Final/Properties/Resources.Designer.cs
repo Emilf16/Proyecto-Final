@@ -73,9 +73,29 @@ namespace Proyecto_Final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Boton_Cerrar_2 {
+            get {
+                object obj = ResourceManager.GetObject("Boton Cerrar 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Boton_Minimizar {
             get {
                 object obj = ResourceManager.GetObject("Boton Minimizar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Boton_Minimizar_2_ {
+            get {
+                object obj = ResourceManager.GetObject("Boton Minimizar 2 ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +123,9 @@ namespace Proyecto_Final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Register_Empresa {
+        internal static System.Drawing.Bitmap Register_Logo {
             get {
-                object obj = ResourceManager.GetObject("Register Empresa", resourceCulture);
+                object obj = ResourceManager.GetObject("Register Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

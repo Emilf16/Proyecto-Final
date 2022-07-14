@@ -79,13 +79,13 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Ravie", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(42, 147);
+            this.label2.Location = new System.Drawing.Point(55, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(178, 108);
+            this.label2.Size = new System.Drawing.Size(137, 99);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Alquiler \r\nde\r\n Salones";
+            this.label2.Text = "Jardines \r\nPara \r\nEventos";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
@@ -133,7 +133,8 @@
             this.Btn_Acceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.Btn_Acceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Btn_Acceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Acceder.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.Btn_Acceder.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Btn_Acceder.ForeColor = System.Drawing.Color.White;
             this.Btn_Acceder.Location = new System.Drawing.Point(324, 238);
             this.Btn_Acceder.Name = "Btn_Acceder";
             this.Btn_Acceder.Size = new System.Drawing.Size(387, 33);
@@ -148,7 +149,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkLabel1.ForeColor = System.Drawing.Color.Black;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(421, 287);
+            this.linkLabel1.Location = new System.Drawing.Point(421, 280);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(178, 17);
             this.linkLabel1.TabIndex = 5;
@@ -204,6 +205,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Enabled = false;
             this.pictureBox1.Image = global::Proyecto_Final.Properties.Resources.LogIn_Empresa;
             this.pictureBox1.Location = new System.Drawing.Point(421, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -225,6 +227,7 @@
             this.linkLabel2.TabIndex = 11;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Registrarme Ahora";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             this.linkLabel2.Click += new System.EventHandler(this.linkLabel2_Click);
             // 
             // LogIn

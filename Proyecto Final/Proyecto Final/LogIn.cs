@@ -6,7 +6,7 @@ namespace Proyecto_Final
         {
             InitializeComponent();
         }
-        int m,mx,my;
+        int m,mx,my;//variables que permiten el movimiento del form
 
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -81,9 +81,13 @@ namespace Proyecto_Final
 
         private void linkLabel2_Click(object sender, EventArgs e)
         {
-            var RegistroForm = new Registro();
-            RegistroForm.ShowDialog();
-            this.Close();
+            var openregistro = new Registro();
+            openregistro.ShowDialog();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
 
         private void pictureBox3_MouseMove(object sender, MouseEventArgs e)
