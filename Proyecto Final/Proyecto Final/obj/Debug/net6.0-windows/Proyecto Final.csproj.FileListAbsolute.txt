@@ -17,3 +17,6 @@ C:\Users\yopro\source\repos\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windo
 C:\Users\yopro\source\repos\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Properties.Resources.resources
 C:\Users\yopro\source\repos\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.LogIn.resources
 C:\Users\yopro\source\repos\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Registro.resources
+C:\Users\yopro\source\repos\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Administrador.resources
+C:\Users\yopro\source\repos\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Agregar_Jardines.resources
+C:\Users\yopro\source\repos\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Cliente.resources

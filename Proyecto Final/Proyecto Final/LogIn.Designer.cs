@@ -141,6 +141,7 @@
             this.Btn_Acceder.TabIndex = 4;
             this.Btn_Acceder.Text = "Acceder";
             this.Btn_Acceder.UseVisualStyleBackColor = false;
+            this.Btn_Acceder.Click += new System.EventHandler(this.Btn_Acceder_Click);
             // 
             // linkLabel1
             // 

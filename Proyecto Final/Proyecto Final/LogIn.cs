@@ -64,7 +64,7 @@ namespace Proyecto_Final
 
         private void Btn_Cerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void pictureBox3_MouseDown(object sender, MouseEventArgs e)
@@ -82,12 +82,19 @@ namespace Proyecto_Final
         private void linkLabel2_Click(object sender, EventArgs e)
         {
             var openregistro = new Registro();
-            openregistro.ShowDialog();
+            openregistro.Show();
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
+        }
+
+        private void Btn_Acceder_Click(object sender, EventArgs e)
+        {
+            var admintest = new Administrador();
+            admintest.Show();
+            this.Hide();
         }
 
         private void pictureBox3_MouseMove(object sender, MouseEventArgs e)
