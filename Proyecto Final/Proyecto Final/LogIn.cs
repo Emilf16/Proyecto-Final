@@ -66,14 +66,6 @@ namespace Proyecto_Final
         {
             Application.Exit();
         }
-
-        private void pictureBox3_MouseDown(object sender, MouseEventArgs e)
-        {
-            m = 1;
-            mx = e.X;
-            my = e.Y;
-        }
-
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             
@@ -97,7 +89,29 @@ namespace Proyecto_Final
             this.Hide();
         }
 
-        private void pictureBox3_MouseMove(object sender, MouseEventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_MouseDown_1(object sender, MouseEventArgs e)
+        {
+            m = 1;
+            mx = e.X;
+            my = e.Y;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox7_MouseMove(object sender, MouseEventArgs e)
         {
             if (m == 1)
             {
@@ -105,9 +119,32 @@ namespace Proyecto_Final
             }
         }
 
-        private void pictureBox3_MouseUp(object sender, MouseEventArgs e)
+        private void pictureBox7_MouseDown(object sender, MouseEventArgs e)
+        {
+            m = 1;
+            mx = e.X;
+            my = e.Y;
+            
+        }
+
+        private void pictureBox7_MouseUp(object sender, MouseEventArgs e)
         {
             m = 0;
         }
+
+        private void pictureBox3_MouseMove_1(object sender, MouseEventArgs e)
+        {
+            if (m == 1)
+            {
+                this.SetDesktopLocation(MousePosition.X - mx, MousePosition.Y - my);
+            }
+        }
+
+        private void pictureBox3_MouseUp_1(object sender, MouseEventArgs e)
+        {
+            m = 0;
+        }
+
+        
     }
 }
