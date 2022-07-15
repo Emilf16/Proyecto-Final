@@ -115,6 +115,90 @@ namespace Proyecto_Final
             my = e.Y;
         }
 
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Hacer_Reserva_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbx_Nombre_Del_Jardin_Enter(object sender, EventArgs e)
+        {
+            if (tbx_Nombre_Del_Jardin.Text == "Nombre del Jardin")
+            {
+                tbx_Nombre_Del_Jardin.Text = "";
+                tbx_Nombre_Del_Jardin.ForeColor = Color.White;
+            }
+        }
+
+        private void tbx_Nombre_Del_Jardin_Leave(object sender, EventArgs e)
+        {
+            if (tbx_Nombre_Del_Jardin.Text == "")
+            {
+                tbx_Nombre_Del_Jardin.Text = "Nombre del Jardin";
+                tbx_Nombre_Del_Jardin.ForeColor = Color.White;
+            }
+        }
+
+        private void tbx_Longitud_Del_Jardin_Enter(object sender, EventArgs e)
+        {
+            if (tbx_Longitud_Del_Jardin.Text == "Longitud del Jardin")
+            {
+                tbx_Longitud_Del_Jardin.Text = "";
+                tbx_Longitud_Del_Jardin.ForeColor = Color.White;
+            }
+        }
+
+        private void tbx_Longitud_Del_Jardin_Leave(object sender, EventArgs e)
+        {
+            if (tbx_Longitud_Del_Jardin.Text == "")
+            {
+                tbx_Longitud_Del_Jardin.Text = "Longitud del Jardin";
+                tbx_Longitud_Del_Jardin.ForeColor = Color.White;
+            }
+        }
+
+        private void tbx_Descripcion_Del_Jardin_Enter(object sender, EventArgs e)
+        {
+            if (tbx_Descripcion_Del_Jardin.Text == "Descripcion del Jardin")
+            {
+                tbx_Descripcion_Del_Jardin.Text = "";
+                tbx_Descripcion_Del_Jardin.ForeColor = Color.White;
+            }
+        }
+
+        private void tbx_Descripcion_Del_Jardin_Leave(object sender, EventArgs e)
+        {
+            if (tbx_Descripcion_Del_Jardin.Text == "")
+            {
+                tbx_Descripcion_Del_Jardin.Text = "Descripcion del Jardin";
+                tbx_Descripcion_Del_Jardin.ForeColor = Color.White;
+            }
+        }
+
         private void pictureBox4_MouseMove(object sender, MouseEventArgs e)
         {
             if (m == 1)

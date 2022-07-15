@@ -92,6 +92,8 @@ namespace Proyecto_Final
 
         private void btn_Consultar_Jardines_Click(object sender, EventArgs e)
         {
+            var openVerDIsponibilidad = new Ver_Disponibilidad();
+            openVerDIsponibilidad.Show();
 
         }
 

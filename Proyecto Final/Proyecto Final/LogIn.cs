@@ -138,6 +138,11 @@ namespace Proyecto_Final
 
         }
 
+        private void tbx_Usuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void pictureBox3_MouseMove_1(object sender, MouseEventArgs e)
         {
             if (m == 1)

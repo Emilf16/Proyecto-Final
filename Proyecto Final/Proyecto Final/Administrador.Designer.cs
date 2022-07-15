@@ -55,12 +55,11 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackColor = System.Drawing.Color.Green;
             this.pictureBox2.Enabled = false;
-            this.pictureBox2.Image = global::Proyecto_Final.Properties.Resources.Background_Jardin1;
             this.pictureBox2.Location = new System.Drawing.Point(0, 70);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1501, 877);
+            this.pictureBox2.Size = new System.Drawing.Size(1500, 877);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -71,7 +70,7 @@
             this.pictureBox5.Image = global::Proyecto_Final.Properties.Resources.Madera_Admin2;
             this.pictureBox5.Location = new System.Drawing.Point(0, 0);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(1501, 73);
+            this.pictureBox5.Size = new System.Drawing.Size(1500, 73);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 7;
             this.pictureBox5.TabStop = false;
@@ -232,7 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1501, 946);
+            this.ClientSize = new System.Drawing.Size(1500, 945);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox1);

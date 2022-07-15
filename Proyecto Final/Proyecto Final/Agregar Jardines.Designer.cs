@@ -47,29 +47,39 @@
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pbx_Agregar_Foto = new System.Windows.Forms.PictureBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_Agregar_Foto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Proyecto_Final.Properties.Resources.Madera_Admin;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1486, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(1447, 72);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Green;
             this.pictureBox2.Enabled = false;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, 69);
+            this.pictureBox2.Location = new System.Drawing.Point(-1, 72);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(797, 770);
+            this.pictureBox2.Size = new System.Drawing.Size(797, 767);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
@@ -165,8 +175,9 @@
             // 
             this.btn_Agregar.BackColor = System.Drawing.Color.White;
             this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Agregar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Agregar.ForeColor = System.Drawing.Color.Green;
+            this.btn_Agregar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Agregar.ForeColor = System.Drawing.Color.White;
+            this.btn_Agregar.Image = global::Proyecto_Final.Properties.Resources.Madera_Admin;
             this.btn_Agregar.Location = new System.Drawing.Point(22, 586);
             this.btn_Agregar.Name = "btn_Agregar";
             this.btn_Agregar.Size = new System.Drawing.Size(191, 67);
@@ -176,11 +187,14 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(475, 264);
+            this.pictureBox3.Image = global::Proyecto_Final.Properties.Resources.Marco_foto_Admin;
+            this.pictureBox3.Location = new System.Drawing.Point(456, 264);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(208, 221);
+            this.pictureBox3.Size = new System.Drawing.Size(295, 270);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label3
             // 
@@ -191,19 +205,21 @@
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label3.Location = new System.Drawing.Point(516, 488);
+            this.label3.Location = new System.Drawing.Point(532, 548);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(134, 23);
             this.label3.TabIndex = 17;
             this.label3.Text = "Foto del Jardin";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btn_Eliminar
             // 
             this.btn_Eliminar.BackColor = System.Drawing.Color.White;
             this.btn_Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Eliminar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Eliminar.ForeColor = System.Drawing.Color.Green;
+            this.btn_Eliminar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Eliminar.ForeColor = System.Drawing.Color.White;
+            this.btn_Eliminar.Image = global::Proyecto_Final.Properties.Resources.Madera_Admin;
             this.btn_Eliminar.Location = new System.Drawing.Point(242, 586);
             this.btn_Eliminar.Name = "btn_Eliminar";
             this.btn_Eliminar.Size = new System.Drawing.Size(191, 67);
@@ -215,8 +231,9 @@
             // 
             this.btn_Modificar.BackColor = System.Drawing.Color.White;
             this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Modificar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Modificar.ForeColor = System.Drawing.Color.Green;
+            this.btn_Modificar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Modificar.ForeColor = System.Drawing.Color.White;
+            this.btn_Modificar.Image = global::Proyecto_Final.Properties.Resources.Madera_Admin;
             this.btn_Modificar.Location = new System.Drawing.Point(22, 697);
             this.btn_Modificar.Name = "btn_Modificar";
             this.btn_Modificar.Size = new System.Drawing.Size(191, 67);
@@ -228,8 +245,9 @@
             // 
             this.btn_Cancelar.BackColor = System.Drawing.Color.White;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Cancelar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Cancelar.ForeColor = System.Drawing.Color.Green;
+            this.btn_Cancelar.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.ForeColor = System.Drawing.Color.White;
+            this.btn_Cancelar.Image = global::Proyecto_Final.Properties.Resources.Madera_Admin;
             this.btn_Cancelar.Location = new System.Drawing.Point(242, 697);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(191, 67);
@@ -241,8 +259,9 @@
             // 
             this.button5.BackColor = System.Drawing.Color.White;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.Green;
+            this.button5.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = global::Proyecto_Final.Properties.Resources.Madera_Admin;
             this.button5.Location = new System.Drawing.Point(475, 697);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(191, 67);
@@ -274,9 +293,8 @@
             this.label5.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label5.Location = new System.Drawing.Point(22, 471);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(186, 25);
+            this.label5.Size = new System.Drawing.Size(0, 25);
             this.label5.TabIndex = 23;
-            this.label5.Text = "Fecha de Apertura";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox4
@@ -293,7 +311,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Proyecto_Final.Properties.Resources.Boton_Minimizar;
-            this.pictureBox5.Location = new System.Drawing.Point(1315, 12);
+            this.pictureBox5.Location = new System.Drawing.Point(1308, 12);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(52, 50);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -301,11 +319,43 @@
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Green;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(22, 471);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(186, 25);
+            this.label6.TabIndex = 44;
+            this.label6.Text = "Fecha de Apertura";
+            // 
+            // pbx_Agregar_Foto
+            // 
+            this.pbx_Agregar_Foto.Location = new System.Drawing.Point(491, 308);
+            this.pbx_Agregar_Foto.Name = "pbx_Agregar_Foto";
+            this.pbx_Agregar_Foto.Size = new System.Drawing.Size(224, 188);
+            this.pbx_Agregar_Foto.TabIndex = 45;
+            this.pbx_Agregar_Foto.TabStop = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(835, 115);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(587, 634);
+            this.dataGridView1.TabIndex = 46;
+            // 
             // Agregar_Jardines
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1446, 792);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.pbx_Agregar_Foto);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label5);
@@ -328,11 +378,14 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Agregar_Jardines";
             this.Text = "Agregar_Jardines";
+            this.Load += new System.EventHandler(this.Agregar_Jardines_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_Agregar_Foto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -359,5 +412,8 @@
         private Label label5;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
+        private Label label6;
+        private PictureBox pbx_Agregar_Foto;
+        private DataGridView dataGridView1;
     }
 }

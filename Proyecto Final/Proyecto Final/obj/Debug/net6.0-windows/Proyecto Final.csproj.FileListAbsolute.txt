@@ -43,3 +43,28 @@ C:\Users\user\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\P
 C:\Users\user\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.genruntimeconfig.cache
 C:\Users\user\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\ref\Proyecto Final.dll
 C:\Users\user\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Hacer_Reserva.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\bin\Debug\net6.0-windows\Proyecto Final.exe
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\bin\Debug\net6.0-windows\Proyecto Final.deps.json
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\bin\Debug\net6.0-windows\Proyecto Final.runtimeconfig.json
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\bin\Debug\net6.0-windows\Proyecto Final.dll
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\bin\Debug\net6.0-windows\Proyecto Final.pdb
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.csproj.AssemblyReference.cache
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Administrador.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Agregar_Jardines.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Cliente.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Hacer_Reserva.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.LogIn.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Properties.Resources.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Registro.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.csproj.GenerateResource.cache
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.AssemblyInfoInputs.cache
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.AssemblyInfo.cs
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.csproj.CoreCompileInputs.cache
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.dll
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\refint\Proyecto Final.dll
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.pdb
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto Final.genruntimeconfig.cache
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\ref\Proyecto Final.dll
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Ver_Reservaciones.resources
+C:\Users\yopro\OneDrive\Documentos\Proyecto-Final\Proyecto Final\Proyecto Final\obj\Debug\net6.0-windows\Proyecto_Final.Ver_Disponibilidad.resources

@@ -16,7 +16,7 @@ namespace Proyecto_Final
         {
             InitializeComponent();
         }
-
+        int m, mx, my;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -104,6 +104,42 @@ namespace Proyecto_Final
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            m = 1;
+            mx = e.X;
+            my = e.Y;
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Agregar_Jardines_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (m == 1)
+            {
+                this.SetDesktopLocation(MousePosition.X - mx, MousePosition.Y - my);
+            }
+        }
+
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            m = 0;
         }
     }
 }

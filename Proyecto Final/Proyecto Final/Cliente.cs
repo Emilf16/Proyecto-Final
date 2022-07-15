@@ -66,7 +66,8 @@ namespace Proyecto_Final
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            var openReservaciones = new Ver_Reservaciones();
+            openReservaciones.Show();
         }
     }
 }
