@@ -185,7 +185,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Proyecto_Final.Properties.Resources.Boton_Minimizar;
-            this.pictureBox4.Location = new System.Drawing.Point(1002, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(1012, 7);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(33, 38);
@@ -197,7 +197,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Proyecto_Final.Properties.Resources.Boton_Cerrar;
-            this.pictureBox5.Location = new System.Drawing.Point(1057, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(1067, 7);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(33, 38);
@@ -277,6 +277,7 @@
             this.Name = "LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.LogIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

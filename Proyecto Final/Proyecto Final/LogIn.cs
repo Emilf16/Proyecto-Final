@@ -11,7 +11,8 @@ namespace Proyecto_Final
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            var prueba = new Cliente();
+            prueba.Show();
         }
 
         private void tbx_Usuario_Enter(object sender, EventArgs e)
@@ -130,6 +131,11 @@ namespace Proyecto_Final
         private void pictureBox7_MouseUp(object sender, MouseEventArgs e)
         {
             m = 0;
+        }
+
+        private void LogIn_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void pictureBox3_MouseMove_1(object sender, MouseEventArgs e)

@@ -53,6 +53,12 @@ namespace Proyecto_Final
 
         }
 
+        private void btn_Reservar_Click(object sender, EventArgs e)
+        {
+            var reservar = new Hacer_Reserva();
+            reservar.Show();
+        }
+
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
