@@ -24,7 +24,7 @@ namespace Proyecto_Final
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)

@@ -298,6 +298,7 @@
             this.cbx_Cantidad_De_Personas.Name = "cbx_Cantidad_De_Personas";
             this.cbx_Cantidad_De_Personas.Size = new System.Drawing.Size(377, 32);
             this.cbx_Cantidad_De_Personas.TabIndex = 47;
+            this.cbx_Cantidad_De_Personas.SelectedIndexChanged += new System.EventHandler(this.cbx_Cantidad_De_Personas_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -310,6 +311,7 @@
             this.label5.Size = new System.Drawing.Size(215, 25);
             this.label5.TabIndex = 48;
             this.label5.Text = "Cantidad de Personas";
+            this.label5.Click += new System.EventHandler(this.label5_Click_1);
             // 
             // cbx_Hora_De_Inicio
             // 
@@ -337,6 +339,7 @@
             this.cbx_Hora_De_Inicio.Name = "cbx_Hora_De_Inicio";
             this.cbx_Hora_De_Inicio.Size = new System.Drawing.Size(377, 32);
             this.cbx_Hora_De_Inicio.TabIndex = 49;
+            this.cbx_Hora_De_Inicio.SelectedIndexChanged += new System.EventHandler(this.cbx_Hora_De_Inicio_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -349,6 +352,7 @@
             this.label6.Size = new System.Drawing.Size(144, 25);
             this.label6.TabIndex = 50;
             this.label6.Text = "Hora de Inicio";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -361,6 +365,7 @@
             this.label7.Size = new System.Drawing.Size(149, 25);
             this.label7.TabIndex = 51;
             this.label7.Text = "Hora de Cierre";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // cbx_Hora_De_Cierre
             // 
@@ -387,6 +392,7 @@
             this.cbx_Hora_De_Cierre.Name = "cbx_Hora_De_Cierre";
             this.cbx_Hora_De_Cierre.Size = new System.Drawing.Size(377, 32);
             this.cbx_Hora_De_Cierre.TabIndex = 52;
+            this.cbx_Hora_De_Cierre.SelectedIndexChanged += new System.EventHandler(this.cbx_Hora_De_Cierre_SelectedIndexChanged);
             // 
             // pictureBox4
             // 

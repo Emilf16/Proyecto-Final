@@ -16,7 +16,7 @@ namespace Proyecto_Final
         {
             InitializeComponent();
         }
-
+        int m, mx, my;//variables que permiten el movimiento del form
         private void Ver_Disponibilidad_Load(object sender, EventArgs e)
         {
 
@@ -29,7 +29,7 @@ namespace Proyecto_Final
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -42,7 +42,32 @@ namespace Proyecto_Final
 
         }
 
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            m = 1;
+            mx = e.X;
+            my = e.Y;
+        }
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (m == 1)
+            {
+                this.SetDesktopLocation(MousePosition.X - mx, MousePosition.Y - my);
+            }
+        }
+
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            m = 0;
+        }
+
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }

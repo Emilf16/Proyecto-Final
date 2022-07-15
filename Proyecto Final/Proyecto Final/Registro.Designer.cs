@@ -46,6 +46,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.btn_Crear = new System.Windows.Forms.Button();
+            this.tbx_Pregunta_De_Seguridad = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -81,7 +83,7 @@
             this.pictureBox3.Enabled = false;
             this.pictureBox3.Location = new System.Drawing.Point(0, 152);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(495, 435);
+            this.pictureBox3.Size = new System.Drawing.Size(495, 474);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
@@ -113,7 +115,7 @@
             this.tbx_Nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_Nombre.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbx_Nombre.ForeColor = System.Drawing.Color.White;
-            this.tbx_Nombre.Location = new System.Drawing.Point(48, 228);
+            this.tbx_Nombre.Location = new System.Drawing.Point(60, 175);
             this.tbx_Nombre.Name = "tbx_Nombre";
             this.tbx_Nombre.Size = new System.Drawing.Size(348, 20);
             this.tbx_Nombre.TabIndex = 5;
@@ -127,7 +129,7 @@
             this.tbx_Apellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_Apellido.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbx_Apellido.ForeColor = System.Drawing.Color.White;
-            this.tbx_Apellido.Location = new System.Drawing.Point(48, 274);
+            this.tbx_Apellido.Location = new System.Drawing.Point(60, 221);
             this.tbx_Apellido.Name = "tbx_Apellido";
             this.tbx_Apellido.Size = new System.Drawing.Size(348, 20);
             this.tbx_Apellido.TabIndex = 6;
@@ -141,7 +143,7 @@
             this.tbx_Usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_Usuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbx_Usuario.ForeColor = System.Drawing.Color.White;
-            this.tbx_Usuario.Location = new System.Drawing.Point(48, 325);
+            this.tbx_Usuario.Location = new System.Drawing.Point(60, 272);
             this.tbx_Usuario.Name = "tbx_Usuario";
             this.tbx_Usuario.Size = new System.Drawing.Size(348, 20);
             this.tbx_Usuario.TabIndex = 7;
@@ -156,7 +158,7 @@
             this.tbx_Contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_Contraseña.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbx_Contraseña.ForeColor = System.Drawing.Color.White;
-            this.tbx_Contraseña.Location = new System.Drawing.Point(48, 367);
+            this.tbx_Contraseña.Location = new System.Drawing.Point(60, 314);
             this.tbx_Contraseña.Name = "tbx_Contraseña";
             this.tbx_Contraseña.Size = new System.Drawing.Size(348, 20);
             this.tbx_Contraseña.TabIndex = 8;
@@ -170,7 +172,7 @@
             this.tbx_Confirmar_Contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_Confirmar_Contraseña.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbx_Confirmar_Contraseña.ForeColor = System.Drawing.Color.White;
-            this.tbx_Confirmar_Contraseña.Location = new System.Drawing.Point(48, 414);
+            this.tbx_Confirmar_Contraseña.Location = new System.Drawing.Point(60, 361);
             this.tbx_Confirmar_Contraseña.Name = "tbx_Confirmar_Contraseña";
             this.tbx_Confirmar_Contraseña.Size = new System.Drawing.Size(348, 20);
             this.tbx_Confirmar_Contraseña.TabIndex = 9;
@@ -184,7 +186,7 @@
             this.tbx_Correo_Electronico.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_Correo_Electronico.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbx_Correo_Electronico.ForeColor = System.Drawing.Color.White;
-            this.tbx_Correo_Electronico.Location = new System.Drawing.Point(48, 462);
+            this.tbx_Correo_Electronico.Location = new System.Drawing.Point(60, 409);
             this.tbx_Correo_Electronico.Name = "tbx_Correo_Electronico";
             this.tbx_Correo_Electronico.Size = new System.Drawing.Size(348, 20);
             this.tbx_Correo_Electronico.TabIndex = 10;
@@ -198,7 +200,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Enabled = false;
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(48, 479);
+            this.textBox1.Location = new System.Drawing.Point(60, 426);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(368, 16);
@@ -211,7 +213,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Enabled = false;
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(48, 245);
+            this.textBox2.Location = new System.Drawing.Point(60, 192);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(368, 16);
@@ -224,7 +226,7 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Enabled = false;
             this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(48, 293);
+            this.textBox3.Location = new System.Drawing.Point(60, 240);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(368, 16);
@@ -237,7 +239,7 @@
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Enabled = false;
             this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(48, 341);
+            this.textBox4.Location = new System.Drawing.Point(60, 288);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(368, 16);
@@ -250,7 +252,7 @@
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Enabled = false;
             this.textBox5.ForeColor = System.Drawing.Color.White;
-            this.textBox5.Location = new System.Drawing.Point(48, 383);
+            this.textBox5.Location = new System.Drawing.Point(60, 330);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(368, 16);
@@ -263,7 +265,7 @@
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Enabled = false;
             this.textBox6.ForeColor = System.Drawing.Color.White;
-            this.textBox6.Location = new System.Drawing.Point(48, 431);
+            this.textBox6.Location = new System.Drawing.Point(60, 378);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(368, 16);
@@ -276,18 +278,48 @@
             this.btn_Crear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Crear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn_Crear.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Crear.Location = new System.Drawing.Point(48, 523);
+            this.btn_Crear.Location = new System.Drawing.Point(60, 574);
             this.btn_Crear.Name = "btn_Crear";
             this.btn_Crear.Size = new System.Drawing.Size(368, 39);
             this.btn_Crear.TabIndex = 17;
             this.btn_Crear.Text = "Crear";
             this.btn_Crear.UseVisualStyleBackColor = true;
             // 
+            // tbx_Pregunta_De_Seguridad
+            // 
+            this.tbx_Pregunta_De_Seguridad.BackColor = System.Drawing.Color.DodgerBlue;
+            this.tbx_Pregunta_De_Seguridad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbx_Pregunta_De_Seguridad.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbx_Pregunta_De_Seguridad.ForeColor = System.Drawing.Color.White;
+            this.tbx_Pregunta_De_Seguridad.Location = new System.Drawing.Point(60, 463);
+            this.tbx_Pregunta_De_Seguridad.Name = "tbx_Pregunta_De_Seguridad";
+            this.tbx_Pregunta_De_Seguridad.Size = new System.Drawing.Size(348, 20);
+            this.tbx_Pregunta_De_Seguridad.TabIndex = 18;
+            this.tbx_Pregunta_De_Seguridad.Text = "Nombre del primer libro que leiste";
+            this.tbx_Pregunta_De_Seguridad.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.tbx_Pregunta_De_Seguridad.Enter += new System.EventHandler(this.tbx_Pregunta_De_Seguridad_Enter);
+            this.tbx_Pregunta_De_Seguridad.Leave += new System.EventHandler(this.tbx_Pregunta_De_Seguridad_Leave);
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.DodgerBlue;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Enabled = false;
+            this.textBox8.ForeColor = System.Drawing.Color.White;
+            this.textBox8.Location = new System.Drawing.Point(60, 484);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
+            this.textBox8.Size = new System.Drawing.Size(368, 16);
+            this.textBox8.TabIndex = 19;
+            this.textBox8.Text = "________________________________________________________________________";
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 587);
+            this.ClientSize = new System.Drawing.Size(495, 625);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.tbx_Pregunta_De_Seguridad);
             this.Controls.Add(this.btn_Crear);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
@@ -339,5 +371,7 @@
         private TextBox textBox5;
         private TextBox textBox6;
         private Button btn_Crear;
+        private TextBox tbx_Pregunta_De_Seguridad;
+        private TextBox textBox8;
     }
 }

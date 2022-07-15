@@ -157,6 +157,32 @@ namespace Proyecto_Final
             }
         }
 
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+    
+        private void tbx_Pregunta_De_Seguridad_Enter(object sender, EventArgs e)
+        {
+            if (tbx_Pregunta_De_Seguridad.Text == "Nombre del primer libro que leiste")
+            {
+                tbx_Pregunta_De_Seguridad.Text = "";
+                tbx_Pregunta_De_Seguridad.ForeColor = Color.White;
+
+            }
+        }
+
+        private void tbx_Pregunta_De_Seguridad_Leave(object sender, EventArgs e)
+        {
+            if (tbx_Pregunta_De_Seguridad.Text == "")
+            {
+                tbx_Pregunta_De_Seguridad.Text = "Nombre del primer libro que leiste";
+                tbx_Pregunta_De_Seguridad.ForeColor = Color.White;
+
+            }
+        }
+
         private void pictureBox4_MouseMove(object sender, MouseEventArgs e)
         {
             if (m == 1)

@@ -127,7 +127,7 @@ namespace Proyecto_Final
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void Hacer_Reserva_Load(object sender, EventArgs e)
@@ -197,6 +197,36 @@ namespace Proyecto_Final
                 tbx_Descripcion_Del_Jardin.Text = "Descripcion del Jardin";
                 tbx_Descripcion_Del_Jardin.ForeColor = Color.White;
             }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbx_Hora_De_Inicio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbx_Cantidad_De_Personas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbx_Hora_De_Cierre_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void pictureBox4_MouseMove(object sender, MouseEventArgs e)
